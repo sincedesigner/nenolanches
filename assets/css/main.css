@@ -1585,7 +1585,7 @@
 
 	body {
 		background-color: #fff;
-		color: #111111;
+		color: rgb(0,0,0);
 	}
 
 	body, input, select, textarea {
@@ -1777,32 +1777,32 @@
 	}
 
 	input, select, textarea {
-		color: #e5474b;
+		color: rgb(255,0,0);
 	}
 
 	a {
-		color: #e5474b;
+		color: rgb(255,0,0);
 	}
 
 	strong, b {
-		color: #e5474b;
+		color:rgb(255,0,0);
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #e5474b;
+		color: rgb(255,0,0);
 	}
 
 	blockquote {
-		border-left-color: #e5474b;
+		border-left-color:rgb(255,0,0);
 	}
 
 	code {
 		background: none;
-		border-color: #e5474b;
+		border-color: rgb(255,0,0);
 	}
 
 	hr {
-		border-bottom-color: #e5474b;
+		border-bottom-color:rgb(255,0,0);
 	}
 
 /* Box */
@@ -1957,8 +1957,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e5474b;
-			color: #e5474b !important;
+			box-shadow: inset 0 0 0 2px rgb(255,0,0);
+			color: rgb(255,0,0) !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -3098,7 +3098,7 @@
 	}
 
 	#header {
-		background: #1c1c1c;
+		background: rgba(0,0,0,0.80); /*cor do menu do topo*/
 		color: #d5d5d5;
 		cursor: default;
 		height: 5em;
@@ -3137,7 +3137,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			color: #e5474b;
+			color: rgb(255,0,0); /*cor das letras do titulo*/
 			font-size: 1.75em;
 			text-transform: none;
 			font-weight: normal;
@@ -3145,7 +3145,7 @@
 		}
 
 			#header .logo:hover {
-				color: rgba(229, 71, 75, 0.75);
+				color: rgba(255, 0, 0, 0.75); /*cor quando passa o moue em cima do titulo */
 			}
 
 		#header a {
@@ -3155,7 +3155,7 @@
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
 			padding: 0 2em;
-			color: #ffffff;
+			color: rgba(255,255,255,0.85); /*cor dos botoes do menu */
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 700;
@@ -3163,7 +3163,7 @@
 		}
 
 			#header a:hover {
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 0, 0, 1.0); /*cor quando passa o mouse em cima dos botoes do menu */
 			}
 
 			#header a:last-child {
@@ -3387,7 +3387,7 @@
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: rgb(255,255,255); /*cor das letras do txt no banner */ 
 		}
 
 		#banner blockquote {
@@ -3434,8 +3434,8 @@
 			#banner button.alt,
 			#banner .button.alt {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #fff;
-				color: #ffffff !important;
+				box-shadow: inset 0 0 0 2px rgb(255,0,0); /* cor contorno do botão no baner */
+				color: rgb(255,0,0) !important; /* cor letras do botão no baner */
 			}
 
 				#banner input[type="submit"].alt:hover,
@@ -3443,7 +3443,7 @@
 				#banner input[type="button"].alt:hover,
 				#banner button.alt:hover,
 				#banner .button.alt:hover {
-					background: rgba(255, 255, 255, 0.25);
+					background: rgba(255, 255, 255, 0.05);
 				}
 
 				#banner input[type="submit"].alt:active,
@@ -3459,7 +3459,7 @@
 				#banner input[type="button"].alt.icon:before,
 				#banner button.alt.icon:before,
 				#banner .button.alt.icon:before {
-					color: #f8d1d2;
+					color: rgb(255,0,0);
 				}
 
 			#banner input[type="submit"].special,
