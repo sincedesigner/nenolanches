@@ -2241,7 +2241,7 @@
 	select,
 	textarea {
 		background: none;
-		border-color: #fff;
+		border-color: #fceced;
 	}
 
 		input[type="text"]:focus,
@@ -3938,7 +3938,7 @@
 		}
 
 			#footer .copyright a {
-				color: rgba(255,255,255,1);
+				color: rgba(255,255,255,0.75);
 			}
 
 		@media screen and (max-width: 980px) {
